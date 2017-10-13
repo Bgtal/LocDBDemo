@@ -7,3 +7,10 @@
 /build
 /captures
 .externalNativeBuild
+
+.idea/
+
+app/src/androidTest/
+app/src/test/
+locdb/src/androidTest/
+locdb/src/test/
