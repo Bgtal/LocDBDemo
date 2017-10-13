@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.ssnb.locdbdemo.MainActivity">
+
+        <TextView
+            android:id="@+id/tv_hint_view"
+            style="@style/btn"
+            android:minHeight="100dp"
+            tools:text="提示"
+            android:gravity="left"
+            android:scrollbars="vertical"
+            android:background="#22000000"/>
+        <TextView
+            android:id="@+id/tv_create_db_one_btn"
+            style="@style/btn"
+            android:text="创建数据库1" />
+
+        <TextView
+            android:id="@+id/tv_create_db_two_btn"
+            style="@style/btn"
+            android:text="创建数据库2" />
+        <CheckBox
+            android:id="@+id/cb_choose_db"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="操作数据库2"/>
+        <CheckBox
+            android:id="@+id/cb_choose_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="操作表2"/>
+        <TextView
+            android:id="@+id/tv_add_data_btn"
+            style="@style/btn"
+            android:text="添加数据"/>
+        <TextView
+            android:id="@+id/tv_delete_data_btn"
+            style="@style/btn"
+            android:text="删除数据"/>
+        <TextView
+            android:id="@+id/tv_update_data_btn"
+            style="@style/btn"
+            android:text="改动数据"/>
+        <TextView
+            android:id="@+id/tv_select_data_btn"
+            style="@style/btn"
+            android:text="查询数据"/>
+
+    </LinearLayout>
+</ScrollView>
